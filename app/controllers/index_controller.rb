@@ -11,7 +11,7 @@ class IndexController < ApplicationController
   def login
       user = User.new
 
-      user_info = user.login('y.takei@nutex.jp', 'S0yukimc')
+      user_info = user.login('y.takei@nutex.jp', '')
       if (user_info)
           @msg = 'Login Done'
       else
