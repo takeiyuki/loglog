@@ -32,7 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'execjs'
-gem 'therubyracer'
+gem 'therubyracer', '0.12.1'
+gem 'libv8', '~> 3.16.14.7'
+#gem 'therubyracer'
 gem 'mysql2'
 
 group :development, :test do
